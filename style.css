@@ -18,9 +18,17 @@ body {
 }
 
 main, header {
-  padding: 24px;
   font-size: 1.25rem;
   line-height: 1.5em;
+}
+
+header {
+  padding: 24px 0;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 64px 0;
 }
 
 .intro-chunk, .card {
@@ -29,11 +37,6 @@ main, header {
 
 .intro-chunk {
   max-width: 464px;
-}
-
-main {
-  background-color: hsl(0deg, 0%, 60%);
-  padding: 64px 24px;
 }
 
 .title {
